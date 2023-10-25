@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-delay Property</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        p,h1{
+            color:aliceblue;
+        }
+        h2{
+            font-size: 150px;
+            color:chartreuse;
+            position:relative;
+            animation: mymove 10s infinite;
+            animation-delay: 5s;
+        }
+        @keyframes mymove{
+            from{left:0px;}
+            to{left:200px;}
+        }
+    </style>
+</head>
+<body>
+    <h1>The animation-delay Property</h1>
+
+    <p>Start the animation after 5 seconds:</p>
+    <h2>Hello</h2>
+    
+</body>
+</html>
